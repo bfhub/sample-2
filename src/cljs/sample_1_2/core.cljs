@@ -31,21 +31,76 @@
      [:div#nav-menu.navbar-menu
       {:class (when @expanded? :is-active)}
       [:div.navbar-start
-       [nav-link "#/" "Home" :home]
-       [nav-link "#/about" "About" :about]]]]))
+       [nav-link "#/" "Home" :home]]]]))
 
-(defn about-page []
-  [:section.section>div.container>div.content
-   [:img {:src "/img/warning_clojure.png"}]])
+;;;;;;;;;;;;;
+;;  Title ;;
+;;;;;;;;;;;;;
+(defn title []
+  [:div.hero>div.hero-body>div.content.box
+   [:h1.title "Calculation"]])
+
+;;;;;;;;;;;;;;;;;
+;; data
+;;;;;;;;;;;;;;;;;
+(def data (r/atom {:x 1 :y 2 :op "+" :sum 0}))
+
+;;;;;;;;;;;;;;;;;;
+;; set-total
+;;;;;;;;;;;;;;;;;;
+(defn- set-total [data total]
+  (prn "set-total")
+  (swap! data assoc :sum (:total total)))
+
+;;;;;;;;;;;;;;;;;;
+;; get-answer() ;;
+;;;;;;;;;;;;;;;;;;
+(defn get-answer [data]
+
+  (let [x (:x @data) y (:y @data) op (:op @data)]
+    (prn "get-answer" x y op)
+    (POST "/api/math/plus"
+         {:headers {"Accept" "application/transit+json"}
+          :params {:x x :y y}
+          ;:handler #(reset! result (:total %))}))
+          :handler #(set-total data  %)})))
+
+;;;;;;;;;;;;;;;;;;;
+;; input-field
+;;;;;;;;;;;;;;;;;;
+(defn input-field [tag id data]
+  [:div.field
+   [tag
+    {:type :number
+     :value (id @data)
+     :on-change #(do
+                   (prn "change" id (-> % .-target .-value))
+                   (swap! data
+                          assoc
+                          id (js/parseInt (-> % .-target .-value)))
+                   (get-answer data))}]])
+
+;;;;;;;;;;;;;;;;;;;
+;; make-row
+;;;;;;;;;;;;;;;;;;
+(defn make-row [data]
+  [:tr
+   [:td [input-field :input.input :x data]]
+   [:td "+"]
+   [:td [input-field :input.input :y data]]
+   [:td "="]
+   [:td (str (:sum @data))]])
 
 (defn home-page []
   [:section.section>div.container>div.content
-   (when-let [docs (:docs @session)]
-     [:div {:dangerouslySetInnerHTML {:__html (md->html docs)}}])])
+   [title]
+
+   [:table
+    [:tbody
+     (make-row data)]]])
 
 (def pages
-  {:home #'home-page
-   :about #'about-page})
+  {:home #'home-page})
 
 (defn page []
   [(pages (:page @session))])
@@ -55,8 +110,8 @@
 
 (def router
   (reitit/router
-    [["/" :home]
-     ["/about" :about]]))
+    [["/" :home]]))
+
 
 (defn match-route [uri]
   (->> (or (not-empty (string/replace uri #"^.*#" "")) "/")
@@ -86,5 +141,8 @@
 (defn init! []
   (ajax/load-interceptors!)
   (fetch-docs!)
+
+  (get-answer data)
+
   (hook-browser-navigation!)
   (mount-components))

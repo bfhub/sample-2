@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f40d4c23-2483-4405-9593-a13f8ec2bedb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/cljs/sample_1_2/core.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/cljs/sample_1_2/core.cljs" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DepsLocalSettings">
+    <option name="repoId" value="" />
+    <option name="repoUrl" value="" />
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../projects/vanilla" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cljs/sample_1_2/core.cljs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="97" column="3" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>about-page</find>
+      <find>about</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/cljs/sample_1_2/core.cljs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/sample-1-2.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__args4j_2_0_26.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__binaryage_devtools_0_9_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__binaryage_env_config_0_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ch_qos_logback_logback_classic_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ch_qos_logback_logback_core_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__cheshire_5_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__cider_piggieback_0_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_commons_clj_yaml_0_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_stacktrace_0_2_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_time_0_14_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_tuple_0_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__cljs_ajax_0_8_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__cljsjs_create_react_class_15_6_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__cljsjs_react_16_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__cljsjs_react_dom_16_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__cljsjs_react_dom_server_16_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_java_time_0_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__co_deps_ring_etag_middleware_0_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_andrewmcveigh_cljs_time_0_5_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_bhauman_spell_spec_0_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_cognitect_transit_clj_0_8_313.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_cognitect_transit_cljs_0_8_256.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_cognitect_transit_java_0_8_337.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_cognitect_transit_js_0_8_846.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_code_findbugs_jsr305_3_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_code_gson_gson_2_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_guava_guava_25_1_jre.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_j2objc_j2objc_annotations_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_javascript_closure_compiler_externs_v20180805.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_javascript_closure_compiler_unshaded_v20180805.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_jsinterop_jsinterop_annotations_1_0_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_protobuf_protobuf_java_3_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_googlecode_json_simple_json_simple_1_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_stuartsierra_component_0_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__com_stuartsierra_dependency_0_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_codec_1_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_fileupload_1_3_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_io_2_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_logging_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__cprop_0_1_14.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__crypto_equality_1_0_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__crypto_random_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__doo_0_1_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__expiring_map_0_1_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__expound_0_7_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__figwheel_0_5_19.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__figwheel_sidecar_0_5_19.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__fipp_0_6_18.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__funcool_cuerdas_2_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__funcool_struct_1_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__hawk_0_2_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__hiccup_1_0_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__http_kit_2_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__javax_servlet_javax_servlet_api_3_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__javax_xml_bind_jaxb_api_2_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__joda_time_2_9_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__json_html_0_4_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__karma_reporter_3_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__lambdaisland_deep_diff_0_0_47.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__luminus_jetty_0_1_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__luminus_ring_ttl_session_0_3_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__luminus_transit_0_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__markdown_clj_1_10_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__meta_merge_1_0_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_jsonista_0_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_muuntaja_0_6_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_core_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_dev_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_frontend_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_http_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_interceptors_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_middleware_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_ring_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_schema_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_sieppari_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_spec_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_swagger_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_reitit_swagger_ui_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_ring_http_response_0_9_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_ring_swagger_ui_2_2_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_schema_tools_0_12_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_sieppari_0_0_0_alpha7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_spec_tools_0_9_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__mount_0_1_16.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__mvxcvi_arrangement_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__mvxcvi_puget_1_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__net_cgrand_parsley_0_9_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__net_cgrand_regex_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__net_cgrand_sjacket_0_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__net_incongru_watchservice_barbary_watchservice_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__net_java_dev_jna_jna_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__net_jodah_expiringmap_0_5_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__nrepl_0_6_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ns_tracker_0_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_commons_commons_compress_1_18.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_commons_commons_lang3_3_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpasyncclient_4_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_4_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_4_4_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_nio_4_4_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_checkerframework_checker_qual_2_0_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojurescript_1_10_520.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_async_0_3_465.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_cache_0_6_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_memoize_0_5_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_rrb_vector_0_0_14.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_data_json_0_2_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_data_priority_map_0_0_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_google_closure_library_0_0_20170809_b9c14c6b.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_google_closure_library_third_party_0_0_20170809_b9c14c6b.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_java_classpath_0_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_analyzer_0_6_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_analyzer_jvm_0_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_cli_0_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_logging_0_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_macro_0_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_namespace_0_2_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_reader_1_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_eclipse_jetty_jetty_http_9_4_12_v20180830.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_eclipse_jetty_jetty_io_9_4_12_v20180830.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_eclipse_jetty_jetty_server_9_4_12_v20180830.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_eclipse_jetty_jetty_util_9_4_12_v20180830.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_flatland_ordered_1_5_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_flatland_useful_0_11_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_javassist_javassist_3_18_1_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_mozilla_rhino_1_7R5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_msgpack_msgpack_0_6_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_ow2_asm_asm_5_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_ow2_asm_asm_all_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_slf4j_slf4j_api_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_webjars_npm_bulma_0_7_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_webjars_npm_material_icons_0_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_webjars_webjars_locator_0_36.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_webjars_webjars_locator_core_0_37.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_yaml_snakeyaml_1_24.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__pjstadig_humane_test_output_0_9_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__potemkin_0_4_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__prismatic_schema_1_1_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__prone_2019_07_08.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__reagent_0_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__realize_2019_04_24.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__riddley_0_1_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_cors_0_1_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_anti_forgery_1_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_codec_1_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_core_1_7_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_defaults_0_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_devel_1_7_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_headers_0_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_jetty_adapter_1_7_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_mock_0_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_servlet_1_7_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_ssl_0_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_webjars_0_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__selmer_1_12_14.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__simple_lein_profile_merge_0_1_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__strictly_specking_standalone_0_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__suspendable_0_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__tech_droit_clj_diff_1_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__tigris_0_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__virgil_0_1_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="807" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sample-1-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-1-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-1-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-1-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-1-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-1-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cljs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-1-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-1-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cljs" type="462c0819:PsiDirectoryNode" />
+              <item name="sample_1_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f40d4c23-2483-4405-9593-a13f8ec2bedb" name="Default Changelist" comment="" />
+      <created>1571264486273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571264486273</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="REPL" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Leiningen" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cljs/sample_1_2/core.cljs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="97" column="3" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
