@@ -62,7 +62,6 @@
     (POST "/api/math/plus"
          {:headers {"Accept" "application/transit+json"}
           :params {:x x :y y}
-          ;:handler #(reset! result (:total %))}))
           :handler #(set-total data  %)})))
 
 ;;;;;;;;;;;;;;;;;;;
