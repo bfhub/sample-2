@@ -58,11 +58,31 @@
 (defn get-answer [data]
 
   (let [x (:x @data) y (:y @data) op (:op @data)]
-    (prn "get-answer" x y op)
-    (POST "/api/math/plus"
-         {:headers {"Accept" "application/transit+json"}
-          :params {:x x :y y}
-          :handler #(set-total data  %)})))
+    (prn "received data are:" x y op)
+
+    (cond
+
+      (= op "+" ) (POST "/api/math/plus"
+                    {:headers {"Accept" "application/transit+json"}
+                     :params {:x x :y y}
+                     :handler #(set-total data  %)})
+
+      (= op "-" ) (POST "/api/math/minus"
+                        {:headers {"Accept" "application/transit+json"}
+                         :params {:x x :y y}
+                         :handler #(set-total data  %)})
+
+      (= op "*" ) (POST "/api/math/multi"
+                        {:headers {"Accept" "application/transit+json"}
+                         :params {:x x :y y}
+                         :handler #(set-total data  %)})
+
+      (= op "/" ) (POST "/api/math/div"
+                        {:headers {"Accept" "application/transit+json"}
+                         :params {:x x :y y}
+                         :handler #(set-total data  %)}))))
+
+
 
 ;;;;;;;;;;;;;;;;;;;
 ;; input-field
@@ -72,6 +92,7 @@
    [tag
     {:type :number
      :value (id @data)
+     :placeholder (name id)
      :on-change #(do
                    (prn "change" id (-> % .-target .-value))
                    (swap! data
@@ -80,12 +101,26 @@
                    (get-answer data))}]])
 
 ;;;;;;;;;;;;;;;;;;;
+;; set-operator
+;;;;;;;;;;;;;;;;;;
+(defn set-operator [pre curr]
+  (prn "set-operator")
+  (swap! pre assoc :op curr)
+  (prn "  after" pre))
+
+;;;;;;;;;;;;;;;;;;;
 ;; make-row
 ;;;;;;;;;;;;;;;;;;
 (defn make-row [data]
   [:tr
    [:td [input-field :input.input :x data]]
-   [:td "+"]
+   [:td [:select {:on-change #(do
+                                 (set-operator data (-> % .-target .-value))
+                                 (get-answer data))}
+         [:option "+"]
+         [:option "-"]
+         [:option "*"]
+         [:option "/"]]]
    [:td [input-field :input.input :y data]]
    [:td "="]
    [:td (str (:sum @data))]])
