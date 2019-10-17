@@ -43,7 +43,11 @@
 ;;;;;;;;;;;;;;;;;
 ;; data
 ;;;;;;;;;;;;;;;;;
-(def data (r/atom {:x 1 :y 2 :op "+" :sum 0}))
+(def data1 (r/atom {:x 1 :y 1 :op "+" :sum 0}))
+(def data2 (r/atom {:x 2 :y 4 :op "+" :sum 0}))
+(def data3 (r/atom {:x 10 :y 2 :op "+" :sum 0}))
+(def data4 (r/atom {:x 98 :y 20 :op "+" :sum 0}))
+
 
 ;;;;;;;;;;;;;;;;;;
 ;; set-total
@@ -92,7 +96,6 @@
    [tag
     {:type :number
      :value (id @data)
-     :placeholder (name id)
      :on-change #(do
                    (prn "change" id (-> % .-target .-value))
                    (swap! data
@@ -131,7 +134,11 @@
 
    [:table
     [:tbody
-     (make-row data)]]])
+     (make-row data1)
+     (make-row data2)
+     (make-row data3)
+     (make-row data4)]]])
+
 
 (def pages
   {:home #'home-page})
@@ -176,7 +183,10 @@
   (ajax/load-interceptors!)
   (fetch-docs!)
 
-  (get-answer data)
+  (get-answer data1)
+  (get-answer data2)
+  (get-answer data3)
+  (get-answer data4)
 
   (hook-browser-navigation!)
   (mount-components))
