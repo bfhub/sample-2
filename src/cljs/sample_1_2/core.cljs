@@ -38,15 +38,21 @@
 ;;;;;;;;;;;;;
 (defn title []
   [:div.hero>div.hero-body>div.content.box
-   [:h1.title "Calculation"]])
+   [:h1.title {:style
+               {:color "DarkBlue"}}
+    "Calculation"]
+   [:div
+    [:p {:style
+         {:color "DarkBlue"}}
+     "welcome to sample 1 & 2 demo"]]])
 
 ;;;;;;;;;;;;;;;;;
 ;; data
 ;;;;;;;;;;;;;;;;;
-(def data1 (r/atom {:x 1 :y 1 :op "+" :sum 0}))
-(def data2 (r/atom {:x 2 :y 4 :op "+" :sum 0}))
-(def data3 (r/atom {:x 10 :y 2 :op "+" :sum 0}))
-(def data4 (r/atom {:x 98 :y 20 :op "+" :sum 0}))
+(def data1 (r/atom {:x 2 :y 4 :op "+" :sum 0}))
+(def data2 (r/atom {:x 3 :y 5 :op "+" :sum 0}))
+(def data3 (r/atom {:x 4 :y 6 :op "+" :sum 0}))
+(def data4 (r/atom {:x 25 :y 27 :op "+" :sum 10}))
 
 
 ;;;;;;;;;;;;;;;;;;
@@ -117,16 +123,26 @@
 (defn make-row [data]
   [:tr
    [:td [input-field :input.input :x data]]
-   [:td [:select {:on-change #(do
+   [:td [:select {:style {:background-color "LightGrey"}
+                  :on-change #(do
                                  (set-operator data (-> % .-target .-value))
                                  (get-answer data))}
          [:option "+"]
          [:option "-"]
          [:option "*"]
          [:option "/"]]]
+
    [:td [input-field :input.input :y data]]
-   [:td "="]
-   [:td (str (:sum @data))]])
+   [:td {:style {:color "Black"}}
+    "="]
+   [:td {:style
+         {:background-color
+          (cond
+            (< (:sum @data) 0) "yellow"
+            (and (<= 0 (:sum @data)) (< (:sum @data) 20)) "lightgreen"
+            (and (<= 20 (:sum @data)) (< (:sum @data) 50)) "lightblue"
+            (<= 50 (:sum @data)) "lightsalmon")}}
+    (str (:sum @data))]])
 
 (defn home-page []
   [:section.section>div.container>div.content
